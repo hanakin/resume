@@ -38,7 +38,7 @@
 			"jquery"
 		]
 	},
-    "resume" {
+    "resume": {
         "name": "Mike Miday",
         "title": "Full-stack Designer"
         "cover": "Cover page text goes here",
@@ -47,29 +47,29 @@
             {
                 "school": "Vancouver Film School",
                 "subject": "Foundation of Design",
-                "degree": "1 Year Degree"
-                "start": "2008"
+                "degree": "1 Year Degree",
+                "start": "2008",
                 "end": "2009"
             },
             {
                 "school": "Community College of the Air Force",
                 "subject": "",
-                "degree": "Associates Degree"
-                "start": "2010"
+                "degree": "Associates Degree",
+                "start": "2010",
                 "end": "2012"
             },
             {
                 "school": "Kent State University",
                 "subject": "Animation Design & Engineering",
-                "degree": "Associates Degree"
-                "start": "2002"
+                "degree": "Associates Degree",
+                "start": "2002",
                 "end": "2006"
             },
             {
                 "school": "Kent State University",
                 "subject": "Science of Technology",
-                "degree": "Bachelors Degree"
-                "start": "2002"
+                "degree": "Bachelors Degree",
+                "start": "2002",
                 "end": "2006"
             },
         ],
@@ -77,60 +77,111 @@
             {
                 "base": "Shaw AFB",
                 "unit": "AFCENT A2/T",
-                "title": "Hard Targets SME"
-                "start": "2010-10-01"
+                "title": "Hard Targets SME",
+                "start": "2010-10-01",
                 "end": "2012-09-23"
             },
             {
                 "base": "Al U'Deid AFB",
                 "unit": "609th AOC",
-                "title": "ATD Analyst"
-                "start": "2012-01-25"
+                "title": "ATD Analyst",
+                "start": "2012-01-25",
                 "end": "2012-06-15"
             },
             {
                 "base": "Al U'Deid AFB",
                 "unit": "609th AOC",
-                "title": "Target Duty Officer"
-                "start": "2015-01-15"
+                "title": "Target Duty Officer",
+                "start": "2015-01-15",
                 "end": "2015-07-26"
             },
             {
                 "base": "Kunsan AFB",
                 "unit": "8th OSS",
-                "title": "NCOIC Targets"
-                "start": "2012-10-10"
+                "title": "NCOIC Targets",
+                "start": "2012-10-10",
                 "end": "2013-10-12"
             },
             {
                 "base": "Ramstein AFB",
                 "unit": "603rd AOC",
-                "title": "Targets System SME"
-                "start": "2013-11-06"
+                "title": "Targets System SME",
+                "start": "2013-11-06",
                 "end": "2016-12-19"
             },
             {
                 "base": "Langley AFB",
                 "unit": "36 IS",
-                "title": "NCOIC Targets Training"
-                "start": "2016-12-19"
+                "title": "NCOIC Targets Training",
+                "start": "2016-12-19",
                 "end": "2018-12-19"
             },
             {
                 "base": "Hickam AFB",
                 "unit": "613th AOC",
-                "title": "ITD Analyst"
-                "start": "2019-01-09"
+                "title": "ITD Analyst",
+                "start": "2019-01-09",
                 "end": "Present"
             }
         ],
         "skills": [
             {
-                "skill": "Windows"
-                "level": 10,
-                "start": "2001-07-01"
+                "skill": "Windows",
+                "level": 9,
+                "start": "1996-07-01"
+            },
+			{
+                "skill": "Mac",
+                "level": 9,
+                "start": "2007-01-01"
+            },
+			{
+                "skill": "Design",
+                "level": 6,
+                "start": "2000-01-01"
+            },
+			{
+                "skill": "HTML & CSS",
+                "level": 8,
+                "start": "2000-01-01"
+            },
+			{
+                "skill": "Javascript",
+                "level": 5,
+                "start": "2000-01-01"
+            },
+			{
+                "skill": "jQuery",
+                "level": 6,
+                "start": "2006-07-06"
+            },
+			{
+                "skill": "NodeJS & GulpJS",
+                "level": 5,
+                "start": "2013-06-13"
+            },
+			{
+                "skill": "PHP",
+                "level": 4,
+                "start": "2000-01-01"
+            },
+			{
+                "skill": "Targeting",
+                "level": 9,
+                "start": "2000-01-01"
             }
-        ]
+        ],
+		"levels: [
+			"Novice",
+			"Familiar",
+			"Basic",
+			"Knowledgable",
+			"Skilled",
+			"Intermediate",
+			"Professional"
+			"Expert",
+			"Master"
+		]
     },
 	"scripts": {
 		"test": "xo && gulp test && stylelint --config ./.stylelintrc './**/*.scss'"
