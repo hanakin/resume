@@ -1,0 +1,167 @@
+{
+	"name": "midaym-resume",
+	"version": "1.0.0",
+	"description": "A digital dynamic resume bulit from my package.json file",
+	"main": "gulpfile.js",
+	"xo": {
+		"rules": {
+			"quotes": [
+				"error",
+				"single"
+			],
+			"comma-dangle": [
+				"error",
+				"always"
+			],
+			"block-spacing": "error",
+			"array-bracket-spacing": [
+				"error",
+				"always"
+			],
+			"multiline-comment-style": [
+				"error",
+				"starred-block"
+			],
+			"computed-property-spacing": "off",
+			"space-in-parens": "off",
+			"capitalized-comments": "off",
+			"object-curly-spacing": [
+				"error",
+				"always"
+			],
+			"no-lonely-if": "off"
+		},
+		"env": [
+			"es6",
+			"browser",
+			"node",
+			"jquery"
+		]
+	},
+    "resume" {
+        "name": "Mike Miday",
+        "title": "Full-stack Designer"
+        "cover": "Cover page text goes here",
+        "about": "Breif Description goes here",
+        "education": [
+            {
+                "school": "Vancouver Film School",
+                "subject": "Foundation of Design",
+                "degree": "1 Year Degree"
+                "start": "2008"
+                "end": "2009"
+            },
+            {
+                "school": "Community College of the Air Force",
+                "subject": "",
+                "degree": "Associates Degree"
+                "start": "2010"
+                "end": "2012"
+            },
+            {
+                "school": "Kent State University",
+                "subject": "Animation Design & Engineering",
+                "degree": "Associates Degree"
+                "start": "2002"
+                "end": "2006"
+            },
+            {
+                "school": "Kent State University",
+                "subject": "Science of Technology",
+                "degree": "Bachelors Degree"
+                "start": "2002"
+                "end": "2006"
+            },
+        ],
+        "work": [
+            {
+                "base": "Shaw AFB",
+                "unit": "AFCENT A2/T",
+                "title": "Hard Targets SME"
+                "start": "2010-10-01"
+                "end": "2012-09-23"
+            },
+            {
+                "base": "Al U'Deid AFB",
+                "unit": "609th AOC",
+                "title": "ATD Analyst"
+                "start": "2012-01-25"
+                "end": "2012-06-15"
+            },
+            {
+                "base": "Al U'Deid AFB",
+                "unit": "609th AOC",
+                "title": "Target Duty Officer"
+                "start": "2015-01-15"
+                "end": "2015-07-26"
+            },
+            {
+                "base": "Kunsan AFB",
+                "unit": "8th OSS",
+                "title": "NCOIC Targets"
+                "start": "2012-10-10"
+                "end": "2013-10-12"
+            },
+            {
+                "base": "Ramstein AFB",
+                "unit": "603rd AOC",
+                "title": "Targets System SME"
+                "start": "2013-11-06"
+                "end": "2016-12-19"
+            },
+            {
+                "base": "Langley AFB",
+                "unit": "36 IS",
+                "title": "NCOIC Targets Training"
+                "start": "2016-12-19"
+                "end": "2018-12-19"
+            },
+            {
+                "base": "Hickam AFB",
+                "unit": "613th AOC",
+                "title": "ITD Analyst"
+                "start": "2019-01-09"
+                "end": "Present"
+            }
+        ],
+        "skills": [
+            {
+                "skill": "Windows"
+                "level": 10,
+                "start": "2001-07-01"
+            }
+        ]
+    },
+	"scripts": {
+		"test": "xo && gulp test && stylelint --config ./.stylelintrc './**/*.scss'"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/hanakin/resume.git"
+	},
+	"author": "Michael Miday (Hanakin)",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/hanakin/resume/issues"
+	},
+	"homepage": "https://github.com/hanakin/resume#readme",
+	"devDependencies": {
+		"del": "^4.1.1",
+		"gulp": "^4.0.1",
+		"gulp-autoprefixer": "^6.1.0",
+		"gulp-cssnano": "^2.1.3",
+		"gulp-data": "^1.3.1",
+		"gulp-postcss": "^8.0.0",
+		"gulp-rename": "^1.4.0",
+		"gulp-sass": "^4.0.2",
+		"gulp-sourcemaps": "^2.6.5",
+		"gulp-stylefmt": "^1.1.0",
+		"postcss-pxtorem": "^4.0.1",
+		"postcss-sorting": "^5.0.0",
+		"stylelint": "^10.0.1",
+		"stylelint-order": "^3.0.0",
+		"stylelint-scss": "^3.6.0",
+		"xo": "^0.24.0"
+	},
+	"dependencies": {}
+}
